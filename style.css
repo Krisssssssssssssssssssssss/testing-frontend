@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #87A2FF;
+  color: #FFD7C4;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #C4D7FF;
+  font-size:50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+  padding: 30px
+}
+nav {
+  border-bottom: #001F3F;
+  border-bottom: 5px;
+}
+.navbar-left {
+  display: flex;
+}
+.navbar-left a {
+  margin-right: 50px;
+  text-decoration: none;
+}
+.navbar-left a:hover {
+  cursor: pointer;
+  color: white;
+}
+.navbar-right {
+  margin-right: 50px;
+}
+.navbar-right:hover {
+  cursor: pointer;
+  color: white;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  width: 30%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  background-color: rgba(255, 244, 181, 0.5);
+  color: #001F3F;
+  border-radius: 5%;
+}
+.card_img {
+  width: 100%;
+  height: 350px;
+  border-radius: 5%;
+  overflow: hidden;
+}
+.card-title {
+  font-size: 28px;
+  color: #0B192C;
+}
+.card_description {
+  padding: 10px;
+}
+.advantages {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-right: 30px;
+}
+.advantages li {
+  list-style-type: none;
+  color: #405D72;
+}
+.checkout {
+  width: 100%;
+  background-color: #FF6500;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #001F3F;
+  border-radius: 8%;
+  border: none;
+}
+.checkout:hover {
+  color: white;
+  cursor: pointer;
+}
